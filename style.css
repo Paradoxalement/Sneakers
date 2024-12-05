@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +16,10 @@
   .spaceBetween {
     justify-content: space-between;
   }
+
+  .spaceAround{
+    justify-content: space-around;
+  }
   
   .alignCenter {
     align-items: center;
@@ -28,6 +33,10 @@
     max-width: 1000px;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  li{
+    list-style: none;
   }
   /* Taille */
 .w35 {
@@ -49,6 +58,7 @@ h2 {
     font-weight: 700;
     line-height: normal;
     margin-bottom: 30px;
+    width: 20%;
   }
   
   h3 {
@@ -61,29 +71,32 @@ h2 {
     margin-bottom: 15px;
   }
   /* Header */
-header {
-  padding-top: 15px;
-  margin-bottom: 45px;
+  header {
+    padding: 10px 40px;
+    background-color: #333333;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1; 
+    width: 100%;
+  }
+  
+  
+  /* Définit la largeur de la barre de navigation dans l'en-tête. */
+  header nav {
+    width: 40%;
+    /*background-color: #b31f1f;*/
+  }
+  .logo {
+  width: 7%;
 }
 
-.logo {
-  width: 10%;
+header a{
+  text-decoration: none;
+  color: white;
 }
 
-nav {
-  width: 100%;
-  background-color: #f6f6f6;
-  margin-top: 15px;
-}
 
-nav ul {
-  padding: 10px 0;
-  width: 40%;
-  margin: auto;
-  color: #000;
-  font-family: Inter;
-  font-size: 14px;
-}
 
 /* SEARCH BAR */
 /* From Uiverse.io by joe-watson-sbf */
@@ -110,10 +123,79 @@ nav ul {
 
 .search__icon {
   font-size: 12px;
-  color: #ff6f61;
+  color: #333333;
   margin-right: 15px;
+}
+
+/*couleur pour test*/
+.bgcolorfooter{
+  background-color:#646464
+}
+
+.bgcolortemoignage{
+  background-color: antiquewhite;
+}
+
+.bgcolorService{
+  background-color: bisque;
+}
+
+.bgcolorproduit{
+  background-color: cadetblue;
 }
 
 
 
+/*Section produits*/
 
+.carte{
+  width: 30%;
+  background-color: #c62c2c;
+  border-radius: 20px;
+}
+
+.carte img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.padding10{
+  padding:  10px;
+}
+
+  /*Section hero*/
+
+.imagehero{
+  width: 30%;
+}
+.divhero {
+  width: 50%;
+ /* background-color: #c62c2c;*/
+}
+
+.titrepied{
+  font-family: "Dancing Script", cursive;
+  font-size: 120px;
+}
+
+.locPied{
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+}
+.accrochePied{
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+}
+
+/*AvantagesClients*/
+.carteclient{
+  width: 30%;
+  background-color: #c62c2c;
+  border-radius: 20px;
+}
+
+.carteclient img{
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  
+}
