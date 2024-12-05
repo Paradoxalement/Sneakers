@@ -1,11 +1,20 @@
 {
   "nomCommercial": "BonPied - Sneakers Éco-sourcés à Rennes",
-  "phraseAccroche": "Marchez avec style tout en respectant la planète avec BonPied, votre destination de sneakers éco-sourcés à Rennes",
+  "phrase ": "Marchez avec style tout en respectant la planète avec BonPied, votre destination de sneakers éco-sourcés à Rennes",
   "texteAppelAction": "Découvrez notre collection responsable",
   "avantagesClients": [
-    "Sneakers éco-sourcés fabriquées avec des matériaux durables",
-    "Designs tendance pour un style unique",
-    "Engagement envers la durabilité et la responsabilité sociale"
+    {
+      "image": "recycler.png",
+      "avantage": "Sneakers éco-sourcés fabriquées avec des matériaux durables"
+    },
+    {
+      "image": "baskets.png",
+      "avantage": "Designs tendance pour un style unique"
+    },
+    {
+      "image": "biodegradable.png",
+      "avantage": "Engagement envers la durabilité et la responsabilité sociale"
+    }
   ],
   "produits": [
     {
